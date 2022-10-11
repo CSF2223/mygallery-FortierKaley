@@ -1,7 +1,7 @@
 /*
 Color Palette:
-background color: #FEF7DC 
-font color:       #A19882
+background color: #E5DCC3 
+font color:       #9A9483
 secondary color:  #E6DDC6 
 tertiary color:    
 */
@@ -27,9 +27,63 @@ header {
 }
 
 body {
-      background-color: #FEF7DC;
-      color: #A19882;
+      background-color: #E5DCC3;
+      color: #9A9483;
       font-family: 'Open Sans';
       margin: 0;
 }
 
+cite {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.imageCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 7rem 4rem;
+}
+
+.imageCard img {
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.imageCard a {
+    text-decoration: none;
+    color: #826F66;
+}
+
+.cardText {
+    color: #616161;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 30px;
+    margin-top: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (min-width: 768px) {
+    header {
+        font-size: 1.6rem;
+    }
+    
+    .gallery  {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+     }  
+     
+     .imageCard {
+        max-width: 26%; 
+     }
+    
+}
