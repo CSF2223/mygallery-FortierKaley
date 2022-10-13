@@ -19,6 +19,7 @@ header {
     border-bottom: 1px solid #826F66;
     border-right: 1px solid #826F66;
     border-left: 1px solid #826F66;
+    border-radius: 25px;
     padding: 0.5rem;
     box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
     text-transform: uppercase;
