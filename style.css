@@ -47,13 +47,16 @@ p {
     justify-content: center;
     align-items: center;
     margin: 7rem 4rem;
+    
 }
+
 
 .imageCard img {
     width: 100%;
     height: auto;
     border-radius: 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
 }
 
 .imageCard a {
@@ -86,4 +89,15 @@ p {
         max-width: 26%; 
      }
     
+}
+div {
+  width: 300px;
+  height: 300px;
+  transition-timing-function: ease;
+  transition: width 2s, height 4s;
+}
+
+div:hover {
+  width: 350px;
+  height: 300px;
 }
